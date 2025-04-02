@@ -1,0 +1,25 @@
+{
+    "name": "snowymint",
+    "displayName": "「雪」snowy&mint",
+    "description": "cold, cozy and mint-flavoured theme for vscode ( •̀ ω •́ )✧",
+    "version": "1.0.0",
+    "publisher": "jstmax",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "「雪」snowy&mint",
+                "uiTheme": "vs-dark",
+                "path": "./themes/snowymint.json"
+            }
+        ]
+    },
+    "activationEvents": [],
+    "main": "out/extension.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jstmaxlol/snowymint"
+    }
+}
